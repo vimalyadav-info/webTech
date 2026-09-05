@@ -1,0 +1,29 @@
+h1,h3{
+    color: #b92b27;
+}
+
+#login{
+    background: white;
+
+}
+
+#signup{
+    background: red;
+    color: white;
+}
+.upvote{
+    background: green;
+    color: white;
+}
+
+.answer{
+    background: blue;
+    color: white;
+}
+/* decendant selector */
+
+.post a{
+    color: purple;
+    background:pink;
+    color: white;
+}

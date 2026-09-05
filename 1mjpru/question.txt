@@ -1,0 +1,3 @@
+randers a grid configuration utlilize rows and colums readers and data  display information clearlly?
+
+create an input layout with text box numerical counters and selection items to collect a data from a user.
