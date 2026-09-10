@@ -1,0 +1,30 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: #f0f0f0;
+    margin: 10px auto;
+    border: 2px solid #0d0d0d;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#container div{
+    height: 100px;
+    width: 100px;
+    background-color: #4CAF50;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
