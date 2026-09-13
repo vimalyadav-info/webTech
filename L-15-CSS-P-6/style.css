@@ -5,11 +5,22 @@
   padding: 10px;
   margin: 10px;
 }
+/* 
+.card:hover {
+  transform: translateY(-15px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+} */
 
 img {
   width: 100%;
   border-radius: 25px;
 }
+
+.card:hover img {
+  transform: scale(1.08);
+  filter: brightness(1.08);
+}
+
 
 h2 {
   color: #d56f3e;
@@ -27,4 +38,9 @@ h4 {
 #pets {
   display: flex;
   justify-content: space-evenly;
+}
+@media(max-width:375px){
+  #pet {
+    flex-wrap: wrap;
+  }
 }
